@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  /* outline: 1px solid red; */
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.slick-dots {
+  bottom: -20px !important;
+}
+.slick-slider {
+  margin-bottom: 20px !important;
+}
+
+.slick-slide {
+  padding: 0 10px !important;
+}
+.Typewriter__cursor {
+color: #c7c9c8;
+}
+
+@media screen and (max-width: 900px) {
+  .slick-dots {
+    bottom: 5px !important;
+  }
+}
